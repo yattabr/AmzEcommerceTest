@@ -6,7 +6,7 @@ import retrofit2.http.Headers
 import retrofit2.http.Query
 
 interface ApiService {
-    @Headers("x-rapidapi-key: cc7630f1dcmsh81f2d37643bc0a5p1bd716jsn65b9a153e547")
+    @Headers("x-rapidapi-key: REMOVED FOR SAFETY")
     @GET("/search")
     suspend fun getAmazonProductList(
         @Query("query") query: String = "Phone",
